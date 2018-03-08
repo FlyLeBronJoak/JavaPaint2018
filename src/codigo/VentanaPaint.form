@@ -150,25 +150,45 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="jToggleButton12" min="-2" pref="38" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jToggleButton13" min="-2" pref="38" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="jToggleButton7" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton8" alignment="0" max="32767" attributes="0"/>
                   <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton1" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton2" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton4" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton5" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton3" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton6" alignment="0" max="32767" attributes="0"/>
                   <Component id="jCheckBox1" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jToggleButton10" max="32767" attributes="0"/>
-                  <Component id="jToggleButton11" max="32767" attributes="0"/>
-                  <Component id="jSpinner1" max="32767" attributes="0"/>
-                  <Component id="jToggleButton9" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jToggleButton3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jToggleButton4" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jToggleButton2" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jToggleButton5" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jSpinner1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToggleButton8" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton10" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToggleButton7" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jToggleButton11" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToggleButton9" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton1" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToggleButton6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToggleButton12" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jToggleButton13" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jSlider1" min="-2" pref="29" max="-2" attributes="0"/>
@@ -187,38 +207,43 @@
                   <Group type="102" attributes="0">
                       <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="49" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jToggleButton3" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="49" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jToggleButton4" min="-2" pref="49" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" max="-2" attributes="0"/>
-                              <Component id="jToggleButton2" min="-2" pref="55" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jToggleButton3" pref="40" max="32767" attributes="0"/>
+                                  <Component id="jToggleButton4" max="32767" attributes="0"/>
+                              </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jToggleButton5" min="-2" pref="49" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jToggleButton2" max="32767" attributes="0"/>
+                                  <Component id="jToggleButton5" max="32767" attributes="0"/>
+                              </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jToggleButton8" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jToggleButton8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jToggleButton10" min="-2" pref="39" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jToggleButton7" min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="jToggleButton11" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jToggleButton9" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Component id="jToggleButton1" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jToggleButton12" max="32767" attributes="0"/>
+                                  <Component id="jToggleButton6" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Component id="jToggleButton13" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="jSlider1" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton10" min="-2" pref="51" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton7" min="-2" pref="50" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton11" min="-2" pref="49" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton9" min="-2" pref="48" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton1" min="-2" pref="49" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton6" min="-2" pref="49" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jToggleButton12" min="-2" pref="49" max="-2" attributes="0"/>
-                          <Component id="jToggleButton13" min="-2" pref="49" max="-2" attributes="0"/>
+                          <Component id="jSlider1" min="-2" pref="320" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
@@ -247,7 +272,7 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="1818" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="1827" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
