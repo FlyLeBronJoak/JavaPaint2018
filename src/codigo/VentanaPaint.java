@@ -253,6 +253,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/250px-HLSColorSpace_opt.png"))); // NOI18N
         jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jLabel1MousePressed(evt);
@@ -260,6 +261,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/circulo.png"))); // NOI18N
+        jToggleButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton1MousePressed(evt);
@@ -267,6 +269,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuadrado.png"))); // NOI18N
+        jToggleButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton2MousePressed(evt);
@@ -274,6 +277,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloggif_5a99790830210.png"))); // NOI18N
+        jToggleButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton3MousePressed(evt);
@@ -281,6 +285,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/triangulo.png"))); // NOI18N
+        jToggleButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton4MousePressed(evt);
@@ -288,6 +293,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pentagono.png"))); // NOI18N
+        jToggleButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton5MousePressed(evt);
@@ -295,6 +301,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estrella.png"))); // NOI18N
+        jToggleButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton6MousePressed(evt);
@@ -304,6 +311,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         jSlider1.setMinimum(1);
         jSlider1.setOrientation(javax.swing.JSlider.VERTICAL);
         jSlider1.setValue(1);
+        jSlider1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jSlider1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 jSlider1MouseDragged(evt);
@@ -317,6 +325,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloggif_5a997269609b4.png"))); // NOI18N
+        jToggleButton8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton8MousePressed(evt);
@@ -324,6 +333,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloggif_5a99732f0fa50.png"))); // NOI18N
+        jToggleButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton7MousePressed(evt);
@@ -331,6 +341,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloggif_5a997428ae5ff.png"))); // NOI18N
+        jToggleButton9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton9MousePressed(evt);
@@ -338,6 +349,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloggif_5a9fff8e7c407.png"))); // NOI18N
+        jToggleButton10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton10MousePressed(evt);
@@ -345,6 +357,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloggif_5aa0000065981.png"))); // NOI18N
+        jToggleButton11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton11MousePressed(evt);
@@ -352,6 +365,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloggif_5aa15903377f9.png"))); // NOI18N
+        jToggleButton12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton12.setMaximumSize(new java.awt.Dimension(36, 36));
         jToggleButton12.setMinimumSize(new java.awt.Dimension(36, 36));
         jToggleButton12.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -361,6 +375,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         });
 
         jToggleButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/4374-iloveimg-resized.png"))); // NOI18N
+        jToggleButton13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jToggleButton13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jToggleButton13MousePressed(evt);
