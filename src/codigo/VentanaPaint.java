@@ -21,7 +21,7 @@ import javax.swing.JToggleButton;
 
 /**
  *
- * @author xp
+ * @author Joaquin Sierra
  */
 public class VentanaPaint extends javax.swing.JFrame {
 
@@ -29,10 +29,18 @@ public class VentanaPaint extends javax.swing.JFrame {
     Forma miForma; 
     
     Color colorSeleccionado = Color.BLACK; 
-    int formaSeleccionada = 3;  // si vale 100 pinto circulos
-                                // si vale 4 pinto cuadrados
+    int formaSeleccionada = 3;  // si vale 1 hace el trazo
+                                // si vale 2 pinto linea recta
                                 // si vale 3 pinto triangulos
+                                // si vale 4 pinto cuadrados
                                 // si vale 5 pinto pentágonos
+                                // si vale 6 pinto hexagonos
+                                // si vale 7 pinto heptagono
+                                // si vale 8 pinto octogono
+                                // si vale 9 pinto heneagono
+                                // si vale 10 pinto decagono
+                                // si vale 11 utiliza el borrador
+                                // si vale 100 pinto circulos
     
     Graphics2D bufferGraphics, buffer2Graphics, jPanelGraphics = null;
     
@@ -85,6 +93,9 @@ public class VentanaPaint extends javax.swing.JFrame {
         jPanelGraphics = (Graphics2D) jPanel1.getGraphics();
     }
      private void deSelecciona(){
+         //Con este metodo puedo cambiar de 
+         //boton seleccionado sin deseleccionar
+         //el anterior
         Component[] components = (Component[]) getContentPane().getComponents();
         for (Component comp : components) {
             if (comp instanceof JToggleButton) {
@@ -465,7 +476,7 @@ public class VentanaPaint extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jPanel1MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseDragged
-              //Dibuja la forma correspondiente
+        //Dibuja la forma correspondiente
         // miForma.dibujate(bufferGraphics, evt.getY(),evt.getX(), new Trazo (jSlider1.getValue(), true));
         // repaint(0,0,1,1);
         switch (formaSeleccionada) {
@@ -505,7 +516,7 @@ public class VentanaPaint extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel1MouseDragged
 
     private void jPanel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MousePressed
-        //inicializo la forma que usaré para dibujar en el buffer
+        //Inicializo la forma que usaré para dibujar en el buffer
         switch (formaSeleccionada){
             case 100: miForma = new Circulo(evt.getX(), evt.getY(),colorSeleccionado, jCheckBox1.isSelected()); 
                     break;
@@ -529,14 +540,13 @@ public class VentanaPaint extends javax.swing.JFrame {
                     break;
             case 24: miForma = new Estrella(evt.getX(), evt.getY(), colorSeleccionado, jCheckBox1.isSelected()); 
                     break;  
-            case 1:
-                x1 = evt.getX();
-                y1 = evt.getY();
-                break;
-            case 11:
-                x1 = evt.getX();
-                y1 = evt.getY();
-                break;                    
+            case 1: x1 = evt.getX();
+                    y1 = evt.getY();
+                    break;
+            case 11: x1 = evt.getX();
+                    y1 = evt.getY();
+                    break;
+                                    
         }      
     }//GEN-LAST:event_jPanel1MousePressed
 
@@ -697,7 +707,7 @@ public class VentanaPaint extends javax.swing.JFrame {
     }//GEN-LAST:event_jToggleButton11MousePressed
 
     private void jPanel1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseEntered
-         if (selectCursor == 1) {
+        if (selectCursor == 1) {
             setCursor(cursorLapiz);
         } else {
             setCursor(Cursor.CROSSHAIR_CURSOR);
@@ -709,11 +719,13 @@ public class VentanaPaint extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel1MouseExited
 
     private void jToggleButton12MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jToggleButton12MousePressed
+        //elige trazo
         formaSeleccionada=1;
         deSelecciona();
     }//GEN-LAST:event_jToggleButton12MousePressed
 
     private void jToggleButton13MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jToggleButton13MousePressed
+        //elige borrador
         formaSeleccionada=11;
         deSelecciona();
     }//GEN-LAST:event_jToggleButton13MousePressed
